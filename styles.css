@@ -1,0 +1,51 @@
+* {
+  font-family: 'Helvetica' !important;
+}
+
+A:link, .default {
+  text-decoration: none !important;
+  font-size: 11pt !important;
+  padding-bottom: 2px;
+}
+
+.unikluleft A:link {
+  display: block;
+}
+
+A:hover {
+  color: #79a !important;
+}
+
+.unikluleft {
+  background: #fff !important;
+}
+
+.unikluleft .klein {
+  margin: 0 !important;
+  padding: 5px !important;
+}
+
+.unikluleft>div:last-child {
+  display: none;
+}
+
+.page_margins #main>div {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  display: block;
+  float: left;
+  margin: 0 !important;
+  padding: 10px !important;
+  width: 50%;
+}
+
+.page_margins #main>div:nth-of-type(2)>div>div>div {
+  margin-left: 20px !important;
+}
+
+/* Footer */
+
+#news-panel {
+  margin-top: 8px !important;
+}
